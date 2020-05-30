@@ -64,10 +64,17 @@ extern "C" {
  *  ターゲットに依存する可能性のある定数の定義
  */
 
+#ifndef STACK_SIZE
+#define	STACK_SIZE		80960		/* タスクのスタックサイズ */
+#endif /* STACK_SIZE */
+
 #ifndef TASK_PORTID
-#define TASK_PORTID     1           /* 文字入力するシリアルポートID */
+#define TASK_PORTID     1      /* 文字入力するシリアルポートID */
 #endif /* TASK_PORTID */
 
+/*
+ *  関数のプロトタイプ宣言
+ */
 #ifndef TOPPERS_MACRO_ONLY
 
 extern void main_task(intptr_t exinf);
