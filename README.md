@@ -1,6 +1,6 @@
 # EV3RT用mruby yamanekko版用サンプルコード
 
-## これはEV3RTβ7-2用です。Rubyのコード以外のC言語のプログラムはEV3RT1.0では動かないので気をつけてください（EV3RT1.o用は近日公開予定）
+## これはEV3RT ver 1.0用です。EV3RT β版を使用したい場合は https://github.com/yamanekko/app_1task を使ってください）
 
 EV3上で動作するmrubyのサンプルコードです。
 EV3RTのタスクはメインタスクのみです。Rubyのファイル名はmain_task.rbとしてください。
